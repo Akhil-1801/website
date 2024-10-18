@@ -68,7 +68,7 @@ cite,
 em,
 i,
 blockquote { font-style: italic; }
-blockquote { border: 2px solid #238aa7; font-style: italic; padding: 35px 30px; }
+blockquote { border: 2px solid #082b3a font-style: italic; padding: 35px 30px; }
 blockquote:before,
 blockquote:after,
 q:before,
