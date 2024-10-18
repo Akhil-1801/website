@@ -583,15 +583,15 @@
 }
 
 .wprt-button:hover {
-    background-color: #252525;
-    border-color: #252525;
+    background-color: #082b3a;
+    border-color: #082b3a;
     color: #fff
 }
 
 /* Button Dark */
 .wprt-button.dark {
-    background-color: #252525;
-    border-color: #252525;
+    background-color: #082b3a;
+    border-color: #082b3a;
     color: #fff;
 }
 
@@ -631,12 +631,12 @@
 .wprt-button.white {
     background-color: #fff;
     border-color: #fff;
-    color: #252525;
+    color: #082b3a;
 }
 
 .wprt-button.white:hover {
-    background-color: #252525;
-    border-color: #252525;
+    background-color: #082b3a;
+    border-color: #082b3a;
     color: #fff;
 }
 
@@ -654,8 +654,8 @@
 
 /* Button Outline Dark */
 .wprt-button.outline.dark {
-    border-color: #252525;
-    color: #252525;
+    border-color: #082b3a;
+    color: #082b3a;
 }
 
 .wprt-button.outline.dark:hover {
@@ -716,7 +716,7 @@
 
 .wprt-progress .title,
 .wprt-progress .perc {
-    color: #252525;
+    color: #082b3a;
     line-height: normal;
     font-family: "Montserrat", sans-serif;
     font-size: 1em;
@@ -886,7 +886,7 @@
 
 .wprt-toggle.style-2.active .toggle-title {
     background-color: transparent;
-    color: #252525;
+    color: #082b3a;
 }
 
 .wprt-toggle.style-2.active .toggle-title:after {
@@ -902,7 +902,7 @@
 .wprt-counter .number {
     font-size: 40px;
     line-height: normal;
-    color: #252525;
+    color: #082b3a;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 3px;
 }
@@ -1023,7 +1023,7 @@
 
 .wprt-galleries.galleries .flex-direction-nav a {
     text-shadow: none;
-    background-color: #252525;
+    background-color: #082b3a;
     color: #fff;
     width: 30px;
     height: 30px;
@@ -1446,7 +1446,7 @@
 
 .wprt-team .socials li a:hover {
     background-color: #fff;
-    color: #252525;
+    color: #082b3a;
 }
 
 /* Team Arrow & Bullets */
@@ -1552,7 +1552,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    color: #252525;
+    color: #082b3a;
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -1635,7 +1635,7 @@
 
 /* Honey */
 .project-item .effect-honey {
-    background: #252525;
+    background: #082b3a;
 }
 
 .project-item .effect-honey img {
@@ -2101,7 +2101,7 @@
 
 .arrow-style-2 .cbp-nav-next.cbp-nav-stop:after,
 .arrow-style-2 .cbp-nav-prev.cbp-nav-stop:after {
-    color: #252525;
+    color: #082b3a;
 }
 
 /* Arrows Style 2 light (outline) */
