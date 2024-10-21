@@ -867,6 +867,8 @@ p.dropcap span.first-letter { font-size: 55px; float: left; color: #082b3a; text
 .header-style-3 #featured-title .featured-title-inner-wrap { padding-top: 82px; padding-bottom: 58px; }
 .header-style-5 #featured-title .featured-title-inner-wrap { padding-top: 250px; padding-bottom: 30px; }
 
+
+
 /* Overrdie for Front-Page and One-Page
 -------------------------------------------------------------- */
 .one-page #site-header-inner { padding-top: 15px; padding-bottom: 15px; }
