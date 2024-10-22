@@ -312,10 +312,10 @@
                             </div>
                         </li>
                         <li data-transition="boxfade" data-slotamount="7" data-easein="Expo.easeOut"
-                            data-easeout="Expo.easeOut" data-masterspeed="2000" data-thumb="assets/img/imgs/stock/metro3.jpg"
+                            data-easeout="Expo.easeOut" data-masterspeed="2000" data-thumb="assets/img/imgs/stock/14.jpg"
                             data-rotate="0" data-saveperformance="off" data-title="METRO">
                             <!-- Main Image -->
-                            <img src="assets/img/imgs/stock/metro3.jpg" alt="" data-bgposition="center center" data-no-retina>
+                            <img src="assets/img/imgs/stock/14.jpg" alt="" data-bgposition="center center" data-no-retina>
                             <!-- Layers -->
                             <div class="tp-caption tp-resizeme text-white font-family-heading text-shadow font-weight-500"
                             data-x="['left','left','left','left']" data-hoffset="['50','30','30','30']"
@@ -466,8 +466,10 @@
 
     <div class="wprt-project" data-layout="grid" data-column="4" data-column2="3"
         data-column3="2" data-column4="1" data-gaph="0" data-gapv="0">
+        
+        <!-- Custom filter without Gallery -->
         <div id="project-filter">
-            <div data-filter="*" class="cbp-filter-item">
+            <div data-filter=".filter-exclude-gallery" class="cbp-filter-item">
                 <span>All</span>
             </div>
             <div data-filter=".civil" class="cbp-filter-item">
@@ -482,21 +484,21 @@
             <div data-filter=".metro" class="cbp-filter-item">
                 <span>Metro</span>
             </div>
-            <div data-filter=".gallery" class="cbp-filter-item"> <!-- Kept gallery class -->
+            <div data-filter=".gallery" class="cbp-filter-item">
                 <span>Gallery</span>
             </div>
         </div><!-- /#project-filter -->
 
         <div id="projects" class="cbp">
 
-            <!-- Civil & Commercial -->
-            <div class="cbp-item civil">
+            <!-- Civil & Commercial (Include in All filter) -->
+            <div class="cbp-item civil filter-exclude-gallery">
                 <div class="project-item">
                     <div class="inner">
                         <div class="grid">
                             <a href="page-project-detail.html">
                                 <figure class="effect-honey">
-                                    <img src="assets/img/imgs/stock/civil.jpg" alt="image" style="width: 100%; height: 300px; object-fit: cover;" />
+                                    <img src="assets/img/imgs/stock/comm3.jpg" alt="image" style="width: 100%; height: 300px; object-fit: cover;" />
                                     <figcaption>
                                         <div>
                                             <h2>Civil</h2>
@@ -510,7 +512,7 @@
                 </div>
             </div><!--/.cbp-item -->
 
-            <div class="cbp-item civil">
+            <div class="cbp-item civil filter-exclude-gallery">
                 <div class="project-item">
                     <div class="inner">
                         <div class="grid">
@@ -530,8 +532,8 @@
                 </div>
             </div><!--/.cbp-item -->
 
-            <!-- Roadways -->
-            <div class="cbp-item roadways">
+            <!-- Roadways (Include in All filter) -->
+            <div class="cbp-item roadways filter-exclude-gallery">
                 <div class="project-item">
                     <div class="inner">
                         <div class="grid">
@@ -551,7 +553,7 @@
                 </div>
             </div><!--/.cbp-item -->
 
-            <div class="cbp-item roadways">
+            <div class="cbp-item roadways filter-exclude-gallery">
                 <div class="project-item">
                     <div class="inner">
                         <div class="grid">
@@ -571,8 +573,8 @@
                 </div>
             </div><!--/.cbp-item -->
 
-            <!-- Electrical Section -->
-            <div class="cbp-item electrical">
+            <!-- Electrical Section (Include in All filter) -->
+            <div class="cbp-item electrical filter-exclude-gallery">
                 <div class="project-item">
                     <div class="inner">
                         <div class="grid">
@@ -592,7 +594,7 @@
                 </div>
             </div><!--/.cbp-item -->
 
-            <div class="cbp-item electrical">
+            <div class="cbp-item electrical filter-exclude-gallery">
                 <div class="project-item">
                     <div class="inner">
                         <div class="grid">
@@ -612,8 +614,8 @@
                 </div>
             </div><!--/.cbp-item -->
 
-            <!-- Metro -->
-            <div class="cbp-item metro">
+            <!-- Metro (Include in All filter) -->
+            <div class="cbp-item metro filter-exclude-gallery">
                 <div class="project-item">
                     <div class="inner">
                         <div class="grid">
@@ -632,7 +634,7 @@
                 </div>
             </div><!--/.cbp-item -->
 
-            <div class="cbp-item metro">
+            <div class="cbp-item metro filter-exclude-gallery">
                 <div class="project-item">
                     <div class="inner">
                         <div class="grid">
@@ -651,8 +653,8 @@
                 </div>
             </div><!--/.cbp-item -->
 
-            <!-- Gallery (visible only in Gallery filter) -->
-            <div class="cbp-item gallery">
+            <!-- Gallery (Only for Gallery filter) -->
+            <div class="cbp-item gallery"> <!-- No filter-exclude-gallery class -->
                 <div class="project-item">
                     <div class="inner">
                         <div class="grid">
@@ -731,6 +733,10 @@
         </div><!-- /#projects -->
     </div><!--/.wprt-project -->
 </section>
+
+
+
+
 
 
 
